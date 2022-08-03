@@ -1,4 +1,5 @@
 package minesweeper;
+// just a note for gitHub
 
 import java.io.*;
 
@@ -7,7 +8,8 @@ public class Settings implements Serializable {
     private int columnCount;
     private int mineCount;
 
-    public static Settings BEGINNER = new Settings(9, 9, 10);
+ //   public static Settings BEGINNER = new Settings(9, 9, 10);
+    public static Settings BEGINNER = new Settings(3, 3, 1);
     public static Settings INTERMEDIATE = new Settings(16, 16, 40);
     public static Settings EXPERT = new Settings(16, 30, 99);
 
